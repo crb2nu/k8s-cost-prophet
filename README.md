@@ -1,3 +1,5 @@
+![Banner](assets/banner.png)
+
 # K8s Cost Prophet
 
 Predictive cost analysis for Kubernetes workloads, with special focus on GPU/AI workloads.
