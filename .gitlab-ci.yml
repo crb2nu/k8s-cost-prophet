@@ -4,7 +4,7 @@ stages:
   - build
 
 variables:
-  GO_VERSION: "1.24"
+  GO_VERSION: "1.25.7"
   GOTOOLCHAIN: "local"
   CGO_ENABLED: "0"
 
