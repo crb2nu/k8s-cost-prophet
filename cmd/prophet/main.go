@@ -59,11 +59,11 @@ func analyzeCmd() *cobra.Command {
 								Namespace: "ai",
 								Kind:      "Deployment",
 								Resources: types.WorkloadResources{
-									CPUCores:  4,
-									MemoryGB:  16,
-									GPUCount:  1,
-									GPUType:   "amd-7900xtx",
-									Replicas:  1,
+									CPUCores: 4,
+									MemoryGB: 16,
+									GPUCount: 1,
+									GPUType:  "amd-7900xtx",
+									Replicas: 1,
 								},
 								HourlyCost:  0.25,
 								MonthlyCost: 180.00,
@@ -151,9 +151,9 @@ func reportCmd() *cobra.Command {
 
 func whatifCmd() *cobra.Command {
 	var (
-		scale       []string
-		gpuType     string
-		replicas    int
+		scale        []string
+		gpuType      string
+		replicas     int
 		spotFraction float64
 	)
 
