@@ -1,3 +1,7 @@
+include:
+  - project: 'services/tech-radar'
+    file: '/ci/radar.yml'
+
 stages:
   - lint
   - test
@@ -50,3 +54,6 @@ build:
     paths:
       - bin/prophet
     expire_in: 1 week
+
+radar-scan:
+  extends: .radar-scan
