@@ -10,6 +10,7 @@ stages:
 variables:
   GO_VERSION: "1.25.7"
   GOTOOLCHAIN: "local"
+  GOPROXY: "https://proxy.golang.org,direct"
   CGO_ENABLED: "0"
 
 default:
